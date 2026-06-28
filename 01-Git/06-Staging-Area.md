@@ -384,13 +384,18 @@ GitHub
 
 ➡ Next: Commit
 
+---
+
 💻 Practical (अभी करके देखो)
 
 अपने Repository में ये Commands चलाओ:
 
 touch staging-demo.txt
+
 git status
+
 git add staging-demo.txt
+
 git status
 
 git status के Output को ध्यान से पढ़ना। पहले Untracked files दिखेगा, फिर Changes to be committed। यहीं पहली बार तुम्हें Staging Area का असली फर्क दिखाई देगा।
