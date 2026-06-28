@@ -386,7 +386,7 @@ GitHub
 
 ---
 
-💻 Practical (अभी करके देखो)
+# 💻 Practical (अभी करके देखो)
 
 अपने Repository में ये Commands चलाओ:
 
