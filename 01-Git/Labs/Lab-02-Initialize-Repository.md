@@ -1,4 +1,4 @@
-# Lab 01 - Initialize Repository
+# Lab 02 - Initialize Repository
 
 ## 🎯 Objective
 

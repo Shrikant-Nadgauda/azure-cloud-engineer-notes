@@ -1,4 +1,4 @@
-# Lab 01 - First Repository
+# Lab-01-Workspace-Setup
 
 ## 🎯 Objective
 
