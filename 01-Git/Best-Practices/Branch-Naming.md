@@ -374,3 +374,121 @@ release/v2.0
 docs/readme-update
 chore/update-gitignore
 experiment/aks
+
+----
+
+| Branch Type   | Purpose                  | Example                     |
+| ------------- | ------------------------ | --------------------------- |
+| `main`        | Production Code          | `main`                      |
+| `develop`     | Development Integration  | `develop`                   |
+| `feature/`    | New Feature              | `feature/azure-vnet`        |
+| `bugfix/`     | Development Bug Fix      | `bugfix/login-error`        |
+| `hotfix/`     | Production Emergency Fix | `hotfix/security-patch`     |
+| `release/`    | Release Preparation      | `release/v1.0`              |
+| `experiment/` | POC / Research           | `experiment/github-actions` |
+
+---
+
+# 💻 Practical
+
+- नई Feature Branch
+
+git checkout -b feature/login-page
+
+- Bug Fix
+
+git checkout -b bugfix/api-timeout
+
+- Hotfix
+
+git checkout -b hotfix/security-patch
+
+- Release
+
+git checkout -b release/v1.0
+
+- Experiment
+
+git checkout -b experiment/github-actions
+
+सभी Branch देखें
+
+git branch
+
+---
+
+# 🔥 Real Production Scenario / Branch Naming in Enterprise
+
+मान लो Team में 50 Developers हैं।
+
+GitHub Repository में 300 Branches बनी हुई हैं।
+
+अगर Branches के नाम ऐसे हों:
+
+test
+
+new
+
+abc
+
+temp
+
+तो किसी को नहीं पता चलेगा कि कौन-सी Branch किस काम के लिए है।
+
+लेकिन अगर नाम ऐसे हों:
+
+feature/terraform-vnet
+
+bugfix/nsg-priority
+
+hotfix/firewall-rule
+
+release/v2.0
+
+तो बिना Branch खोले ही उसका उद्देश्य समझ आ जाता है।
+
+यही कारण है कि Enterprise Companies Branch Naming Standard को Mandatory रखती हैं।
+
+---
+
+
+💡 Senior Engineer Tips
+✅ Branch Name = Task Name
+
+अगर तुम्हारे पास Azure DevOps या Jira Ticket है:
+
+ADO-145
+
+तो Branch ऐसे बनाओ:
+
+feature/ADO-145-azure-vnet
+
+या
+
+bugfix/ADO-210-nsg-rule
+
+इससे Branch देखकर ही Ticket Trace हो जाती है।
+
+✅ एक Branch = एक काम
+
+❌ गलत:
+
+feature/login-payment-firewall-docker
+
+✔ सही:
+
+feature/login
+feature/payment
+feature/firewall
+
+हर Branch का केवल एक उद्देश्य होना चाहिए।
+
+# 🧠 10 सेकंड का Interview Answer
+
+अगर Interviewer पूछे:
+
+"Branch Naming Convention क्यों महत्वपूर्ण है?"
+
+तो बोलना:
+
+Branch Naming Convention Repository को व्यवस्थित, पढ़ने योग्य और Team Collaboration के लिए आसान बनाती है। Enterprise Projects में feature/, bugfix/, hotfix/ और release/ जैसी Naming Standards का उपयोग किया जाता है ताकि Branch का उद्देश्य उसके नाम से ही स्पष्ट हो जाए।
