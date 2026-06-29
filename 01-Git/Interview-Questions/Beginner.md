@@ -1,557 +1,338 @@
 # Beginner Git Interview Questions
 
 > Level: Beginner
+>
+> Total Questions: 60
+>
+> Part 1 (Q1 - Q15)
 
 ---
 
-# Objective Questions
+## Q1. What is Git?
 
-### Q1. What is Git?
+Which of the following best describes Git?
+
+- [ ] A Programming Language
+- [ ] A Database Management System
+- [ ] A Distributed Version Control System (DVCS)
+- [ ] A Cloud Platform
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** A Distributed Version Control System (DVCS)
+
+**Explanation**
+
+Git is a Distributed Version Control System that tracks changes in source code, maintains version history, and allows multiple developers to work together efficiently.
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q2. Why do we use Git?
+## Q2. Why do we use Git?
+
+- [ ] To browse the Internet
+- [ ] To track file changes and collaborate
+- [ ] To install Windows
+- [ ] To create databases
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** To track file changes and collaborate
+
+**Explanation**
+
+Git helps developers track changes, collaborate with teams, restore previous versions, and manage project history.
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q3. What is Version Control?
+## Q3. What is Version Control?
+
+- [ ] A Backup Software
+- [ ] A Programming Language
+- [ ] A System that tracks file changes over time
+- [ ] A Database
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** A System that tracks file changes over time
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q4. Difference between Git and GitHub?
+## Q4. Git was created by?
+
+- [ ] James Gosling
+- [ ] Linus Torvalds
+- [ ] Bill Gates
+- [ ] Guido van Rossum
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** Linus Torvalds
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q5. What is a Repository?
+## Q5. Which command initializes a Git repository?
+
+- [ ] git clone
+- [ ] git init
+- [ ] git create
+- [ ] git repository
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git init
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q6. What is a Working Directory?
+## Q6. Which command checks the Git version?
+
+- [ ] git --version
+- [ ] git version
+- [ ] git status
+- [ ] git info
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git --version
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q7. What is the Staging Area?
+## Q7. Which command displays the current repository status?
+
+- [ ] git check
+- [ ] git show
+- [ ] git status
+- [ ] git verify
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git status
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q8. What is a Commit?
+## Q8. Which command shows commit history?
+
+- [ ] git commits
+- [ ] git history
+- [ ] git log
+- [ ] git records
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git log
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q9. What is a Branch?
+## Q9. Which command stages all modified files?
+
+- [ ] git stage
+- [ ] git add .
+- [ ] git commit
+- [ ] git push
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git add .
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q10. Why do we create Branches?
+## Q10. Which command creates a commit?
+
+- [ ] git save
+- [ ] git commit
+- [ ] git record
+- [ ] git update
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git commit
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q11. What is the Main Branch?
+## Q11. What is a Repository?
+
+- [ ] A Database
+- [ ] A Folder that stores Git project history
+- [ ] A Text File
+- [ ] A Programming Language
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** A Folder that stores Git project history
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q12. What is Git Clone?
+## Q12. Which command clones an existing repository?
+
+- [ ] git copy
+- [ ] git download
+- [ ] git clone
+- [ ] git fetch
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** git clone
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q13. What is Git Push?
+## Q13. What is the Working Directory?
+
+- [ ] Remote Server
+- [ ] Area where you modify project files
+- [ ] GitHub Repository
+- [ ] Commit History
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** Area where you modify project files
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q14. What is Git Pull?
+## Q14. What is the Staging Area?
+
+- [ ] Temporary area before committing changes
+- [ ] GitHub Server
+- [ ] Cloud Storage
+- [ ] Production Server
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** Temporary area before committing changes
 
 </details>
 
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
+
 ---
 
-### Q15. What is Git Fetch?
+## Q15. What is a Commit?
+
+- [ ] A Folder
+- [ ] A Saved snapshot of changes
+- [ ] A Branch
+- [ ] A Remote Repository
 
 <details>
 <summary><b>✅ Show Answer</b></summary>
 
-Answer...
+✔ **Correct Answer:** A Saved snapshot of changes
+
+**Explanation**
+
+A commit captures the current state of the staged changes and stores them in the repository history. Each commit has a unique ID and helps track project evolution.
 
 </details>
+
+### Self Evaluation
+
+- [ ] I answered correctly
+- [ ] I need more practice
 
 ---
-
-### Q16. Difference between Pull and Fetch?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q17. What is Git Merge?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q18. What is Git Rebase?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q19. Difference between Merge and Rebase?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q20. What is Merge Conflict?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q21. What is Git Remote?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q22. What is Origin?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q23. What is HEAD in Git?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q24. What is Git Log?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q25. What is Git Status?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q26. What is Git Diff?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q27. What is Git Tag?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q28. Why do we use Tags?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q29. What is Git Revert?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q30. What is Git Reset?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q31. Difference between Reset and Revert?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q32. What is Cherry-pick?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q33. What is .gitignore?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q34. Why do we use SSH with GitHub?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q35. Difference between HTTPS and SSH?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q36. What files should never be committed?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q37. What is a Clean Working Tree?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q38. Why are meaningful Commit Messages important?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q39. What is GitHub?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-### Q40. Why is Git important for DevOps Engineers?
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-# Descriptive Questions
-
-## Q1. Explain the complete Git workflow.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q2. Explain the lifecycle of a file in Git.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q3. Explain the difference between Working Directory, Staging Area and Repository.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q4. Explain Git Branching with a real-world example.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q5. Explain the process of pushing code to GitHub.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q6. Explain Merge Conflict with an example.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q7. Explain Git Rebase with an example.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q8. Explain SSH Authentication in GitHub.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q9. Explain the difference between Reset, Revert and Cherry-pick.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
-
----
-
-## Q10. Explain how Git is used in a DevOps CI/CD Pipeline.
-
-<details>
-<summary><b>✅ Show Answer</b></summary>
-
-Answer...
-
-</details>
