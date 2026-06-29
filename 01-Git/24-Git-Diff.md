@@ -6,7 +6,8 @@ git diff बताता है कि उस File के अंदर क्य
 
 यही सबसे बड़ा अंतर है।
 
-📘 Topic 24 - Git Diff
+# 📘 Topic 24 - Git Diff
+
 # Git Diff
 
 ## 🎯 उद्देश्य
@@ -349,7 +350,7 @@ Commit
 ➡ Next: Merge Conflict
 
 
-# 🔥 24.1 Important Note / Git Diff कोई बदलाव नहीं करता
+# 🔥 Important Note / Git Diff कोई बदलाव नहीं करता
 
 Git Diff केवल Files के बीच का Difference दिखाता है।
 
@@ -357,7 +358,7 @@ Git Diff केवल Files के बीच का Difference दिखात�
 
 इसी कारण यह पूरी तरह Safe Command है।
 
-# 🔥 24.2 Real Production Scenario Production Code Review
+# 🔥 Real Production Scenario Production Code Review
 
 मान लो
 
