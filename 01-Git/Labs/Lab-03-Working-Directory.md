@@ -1,4 +1,4 @@
-# Lab 02 - Working Directory
+# Lab 03 - Working Directory
 
 ## 🎯 Objective
 
